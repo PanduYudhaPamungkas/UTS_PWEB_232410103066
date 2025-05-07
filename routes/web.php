@@ -15,10 +15,6 @@ use App\Http\Controllers\PageController;
 |
 */
 
-Route::post('/login', function () {
-    return redirect('/dashboard');
-})->name('ToDashboard');
-
 Route::get('/', [PageController::class, 'login'])->name('login');
 Route::get('/dashboard', [PageController::class, 'dashboard'])->name('dashboard');
 Route::get('/profile', [PageController::class, 'profile'])->name('profile');
