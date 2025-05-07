@@ -13,11 +13,6 @@ class PageController extends Controller
         return view ('login');
     }
 
-    public function NavigateToDashboard(Request $request)
-    {
-        return redirect()->route('ToDashboard');
-    }
-
     public function dashboard(Request $request){
         return view(
             "dashboard",["username" => $request->username]
