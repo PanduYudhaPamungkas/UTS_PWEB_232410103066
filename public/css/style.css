@@ -1,0 +1,25 @@
+.bg-img {
+    background-image: url('/assets/books.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.custom-btn {
+    display: inline-block;
+    background-color: #5e8e74;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    font-size: 14px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+    width: 200px;
+    align-content: center;
+    text-align: center;
+}
+
+.custom-btn:hover {
+    background-color: #3B7A57;
+}
+
